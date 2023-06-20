@@ -4,6 +4,7 @@ import { COLOR } from '../../common/color';
 export const Container = styled.section`
   width: 85%;
   max-width: 900px;
+  margin-top: 20px;
 `;
 export const MainTitle = styled.div`
   border-bottom: 3px solid ${COLOR.YELLOW};

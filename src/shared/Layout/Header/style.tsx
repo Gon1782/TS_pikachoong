@@ -7,7 +7,6 @@ export const StyledHeader = styled.div`
   border-bottom: 1px solid rgb(204, 204, 204);
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
   background-color: ${COLOR.YELLOW};
   @media screen and (max-width: 800px) {
     height: 150px;
