@@ -6,7 +6,14 @@ import { QueryClientProvider, QueryClient } from 'react-query';
 import { Provider } from 'react-redux';
 import store from './redux/config/configStore';
 
-const queryClient = new QueryClient();
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      refetchOnWindowFocus: false,
+      refetchOnMount: false,
+    },
+  },
+});
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement,
 );
