@@ -7,7 +7,7 @@ https://playful-napkin-967.notion.site/f6a45cb7494348d9a3717a6523220fe4
 
 ### Web
 
-https://ts-pikachoong.vercel.app/
+https://ts-pikachoong-sigma.vercel.app/
 
 
 ## 프로젝트 개요
